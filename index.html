@@ -6,68 +6,131 @@
   <title>Chan Hoo | 陈昊</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      max-width: 820px;
-      margin: 80px auto;
-      padding: 0 24px;
-      line-height: 1.7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", Arial, sans-serif;
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 24px;
+      line-height: 1.75;
       color: #222;
+      background: #fafafa;
     }
-    h1 {
-      font-size: 42px;
-      margin-bottom: 8px;
-    }
+    header { margin-bottom: 44px; }
+    h1 { font-size: 44px; margin: 0 0 10px; }
     h2 {
       margin-top: 42px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 8px;
     }
-    a {
-      color: #2563eb;
+    nav {
+      margin: 24px 0 36px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+    nav a {
+      color: #0057b8;
       text-decoration: none;
+      font-weight: 600;
     }
-    .subtitle {
-      color: #666;
-      font-size: 18px;
+    a { color: #0057b8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .subtitle { color: #555; font-size: 18px; }
+    .card {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 14px;
+      padding: 22px 24px;
+      margin: 18px 0;
     }
-    .section {
-      margin-top: 28px;
+    .muted { color: #666; }
+    ul { padding-left: 22px; }
+    footer {
+      margin-top: 60px;
+      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
+
 <body>
-  <h1>Chan Hoo（陈昊）</h1>
-  <p class="subtitle">
-    Master Student · School of Marxism · Northwest A&F University
-  </p>
-
-  <div class="section">
-    <p>
-      欢迎来到我的个人主页。我目前就读于西北农林科技大学马克思主义学院，
-      研究兴趣包括思想政治教育、马克思主义理论、法治教育与人工智能在教育中的应用。
+  <header>
+    <h1>Chan Hoo（陈昊）</h1>
+    <p class="subtitle">
+      Master Student · School of Marxism · Northwest A&F University<br>
+      马克思主义理论硕士研究生 · 西北农林科技大学马克思主义学院
     </p>
-  </div>
 
-  <h2>Research Interests</h2>
+    <nav>
+      <a href="#about">About / 关于</a>
+      <a href="#research">Research / 研究</a>
+      <a href="#writing">Writing / 写作</a>
+      <a href="#blog">Blog / 博客</a>
+      <a href="#contact">Contact / 联系</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About / 关于我</h2>
+    <div class="card">
+      <p>
+        我目前就读于西北农林科技大学马克思主义学院，专业为马克思主义理论。
+        我的研究兴趣包括思想政治教育、马克思主义理论、法治教育，以及人工智能在教育中的应用。
+      </p>
+      <p>
+        I am a master's student in Marxist Theory at the School of Marxism,
+        Northwest A&F University. My academic interests include ideological and political education,
+        Marxist theory, rule of law education, and the application of artificial intelligence in education.
+      </p>
+      <p class="muted">
+        This website serves as a personal academic homepage and a long-term space for research notes,
+        reading reflections, teaching observations, travel writing, and everyday essays.
+      </p>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research Interests / 研究兴趣</h2>
+    <ul>
+      <li>Ideological and Political Education / 思想政治教育</li>
+      <li>Marxist Theory / 马克思主义理论</li>
+      <li>Rule of Law Education / 法治教育</li>
+      <li>AI in Education / 人工智能与教育</li>
+      <li>Chinese Political Thought / 中国政治思想</li>
+    </ul>
+  </section>
+
+  <section id="writing">
+  <h2>Writing & Publications / 写作与论文</h2>
   <ul>
-    <li>Ideological and Political Education</li>
-    <li>Marxist Theory</li>
-    <li>Rule of Law Education</li>
-    <li>AI in Education</li>
+    <li>Research on ideological and political education in higher education / 高校思想政治教育研究</li>
+    <li>Studies on student development in agricultural and forestry universities / 农林类高校学生发展研究</li>
+    <li>Research on rural cultural development and civic education / 乡村文化建设与公民教育研究</li>
+    <li>Reading Notes on Qin Hui's <em>Lectures on Qin and Han History</em> / 秦晖《秦汉史讲义》读书笔记</li>
   </ul>
+</section>
 
-  <h2>Writing & Blog</h2>
-  <p>
-    这里将用于记录我的读书笔记、学术思考、教学观察、旅行见闻与 AI 使用经验。
-  </p>
+  <section id="blog">
+    <h2>Blog / 博客</h2>
+    <div class="card">
+      <p>
+        Coming soon. I plan to write about academic reading, teaching, AI tools,
+        travel, fitness, and personal reflections.
+      </p>
+      <p>
+        即将更新。这里将用于记录读书笔记、学术思考、教学观察、AI 使用经验、旅行见闻与日常随笔。
+      </p>
+    </div>
+  </section>
 
-  <h2>Contact</h2>
-  <p>
-    Website: <a href="https://chanhoo.com">https://chanhoo.com</a>
-  </p>
+  <section id="contact">
+    <h2>Contact / 联系方式</h2>
+    <p>
+      Website: <a href="https://chanhoo.com">https://chanhoo.com</a>
+    </p>
+  </section>
 
-  <p style="margin-top: 60px; color: #888;">
-    © 2026 Chan Hoo. All rights reserved.
-  </p>
+  <footer>
+    © 2026 Chan Hoo. Built with GitHub and Cloudflare Pages.
+  </footer>
 </body>
 </html>
